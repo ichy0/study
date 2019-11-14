@@ -1,0 +1,28 @@
+{
+  "name": "@ichishima/jquery-test",
+  "version": "0.1.0",
+  "description": "test module",
+  "keywords": [
+    "lyzon",
+    "jquery-plugin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ichy0/study"
+  },
+  "author": "ichishima",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
